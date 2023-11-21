@@ -16,6 +16,16 @@
           <li><a href="#exprience">Exprience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact"> Contact</a></li>
+          <li>
+            <img
+              id="modeToggle"
+              class="icon color_icon"
+              src="./Assets/theme_light.png"
+              src-light="./Assets/theme_light.png"
+              src-dark="./Assets/theme_dark.png"
+              alt="color theme icon"
+            />
+          </li>
         </ul>
       </div>
     </nav>
@@ -32,12 +42,26 @@
           <li><a href="#exprience" onclick="toggleMenu()">Exprience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+          <li>
+            <img
+              id="modeToggle2"
+              class="icon color_icon"
+              src="./Assets/theme_light.png"
+              src-light="./Assets/theme_light.png"
+              src-dark="./Assets/theme_dark.png"
+              alt="color theme icon"
+            />
+          </li>
         </div>
       </div>
     </nav>
     <section id="profile">
       <div class="section_pic_container">
-        <img src="./Assets/profile_pic.jpeg" alt="My profile Picture" class="about_pic" />
+        <img
+          src="./Assets/profile_pic.jpeg"
+          alt="My profile Picture"
+          class="about_pic"
+        />
       </div>
       <div class="section_text">
         <p class="section_text_p1">Hello, I'm</p>
@@ -57,15 +81,19 @@
         <div id="socials_container">
           <img
             src="./Assets/linkedin.png"
+            src-light="./Assets/linkedin.png"
+            src-dark="./Assets/linkedin_dark.png"
             alt="My Linkedin Profile"
-            class="icon"
+            class="icon linkedin_icon"
             onclick="location.href='http://linkedin.com/'"
           />
           <img
             src="./Assets/github.png"
+            src-light="./Assets/github.png"
+            src-dark="./Assets/github_dark.png"
             alt="My github Profile"
-            class="icon"
-            onclick="location.href='http://github.com/iambee-jay/'"
+            class="icon github_icon"
+            onclick="location.href='http://github.com/'"
           />
         </div>
       </div>
@@ -86,19 +114,27 @@
             <div class="details_container">
               <img
                 src="./Assets/experience.png"
+                src-light="./Assets/experience.png"
+                src-dark="./Assets/experience_dark.png"
                 alt="Exprience icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ Years <br /> Frontend Development </p>
+              <p>
+                2+ Years <br />
+                Frontend Development
+              </p>
             </div>
             <div class="details_container">
               <img
                 src="./Assets/education.png"
+                src-light="./Assets/education.png"
+                src-dark="./Assets/education_dark.png"
                 alt="Education icon"
                 class="icon"
               />
-              <h3>Education</h3>Bow Valley College </p>
+              <h3>Education</h3>
+              <p>Bow Valley College</p>
             </div>
           </div>
           <div class="text_Container">
@@ -114,53 +150,96 @@
           </div>
         </div>
       </div>
-      <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#exprience'"/>
+      <img
+        src="./Assets/arrow.png"
+        src-light="./Assets/arrow.png"
+        src-dark="./Assets/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#exprience'"
+      />
     </section>
     <section id="exprience">
       <p class="section_text_p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience_details_container">
-      <div class="about_containers">
+        <div class="about_containers">
           <div class="details_container">
             <h2 class="experience_sub_title">Frontend Development</h2>
             <div class="article_container">
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>HTML</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>CSS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>SASS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>JavaScript</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>REACT</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets//checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Material UI</h3>
                   <p>Basic</p>
@@ -172,28 +251,52 @@
             <h2 class="experience_sub_title">Backend Development</h2>
             <div class="article_container">
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>PostgresSQL</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Node JS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Express JS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon"/>
+                <img
+                  src="./Assets/checkmark.png"
+                  src-light="./Assets/checkmark.png"
+                  src-dark="./Assets/checkmark_dark.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
                 <div>
                   <h3>Git</h3>
                   <p>Intermediate</p>
@@ -201,78 +304,143 @@
               </article>
             </div>
           </div>
-       </div>
-    </div>
-    <img src="./Assets/arrow.png" alt=" Arrow icon" class="icon arrow2" onclick="location.href ='./#projects'"/>
+        </div>
+      </div>
+      <img
+        src="./Assets/arrow.png"
+        src-light="./Assets/arrow.png"
+        src-dark="./Assets/arrow_dark.png"
+        alt=" Arrow icon"
+        class="icon arrow2"
+        onclick="location.href ='./#projects'"
+      />
     </section>
     <section id="projects">
-      <p class="section_text_p1"> Browse My Recent</p>
+      <p class="section_text_p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience_details_container">
         <div class="about_containers">
           <div class="details_container color_container">
             <div class="article_container">
-              <img src="./Assets/project-1.png" alt="Project 1" class="project_img">
+              <img
+                src="./Assets/project-1.png"
+                alt="Project 1"
+                class="project_img"
+              />
             </div>
-            <h2 class="exprience_sub_title"> Project One</h2>
+            <h2 class="exprience_sub_title">Project One</h2>
             <div class="btn_container">
-              <button class="btn btn_color_2 project_btn" onclick="location.href= 'https://github.com/'">
+              <button
+                class="btn btn_color_2 project_btn"
+                onclick="location.href= 'https://github.com/'"
+              >
                 Github
               </button>
-              <button class="btn btn_color_2 project_btn" onclick="location.href= 'https://github.com/'">
+              <button
+                class="btn btn_color_2 project_btn"
+                onclick="location.href= 'https://github.com/'"
+              >
                 Live Demo
-              </button>            
+              </button>
             </div>
           </div>
           <div class="details_container color_container">
             <div class="article_container">
-              <img src="./Assets/project-2.png" alt="Project 2" class="project_img">
+              <img
+                src="./Assets/project-2.png"
+                alt="Project 2"
+                class="project_img"
+              />
             </div>
-            <h2 class="exprience_sub_title"> Project Two</h2>
+            <h2 class="exprience_sub_title">Project Two</h2>
             <div class="btn_container">
-              <button class="btn btn_color_2 project_btn" onclick="location.href= 'https://github.com/'">
+              <button
+                class="btn btn_color_2 project_btn"
+                onclick="location.href= 'https://github.com/'"
+              >
                 Github
               </button>
-              <button class="btn btn_color_2 project_btn" onclick="location.href= 'https://github.com/'">
+              <button
+                class="btn btn_color_2 project_btn"
+                onclick="location.href= 'https://github.com/'"
+              >
                 Live Demo
-              </button>            
+              </button>
             </div>
           </div>
           <div class="details_container color_container">
             <div class="article_container">
-              <img src="./Assets/project-3.png" alt="Project 3" class="project_img">
+              <img
+                src="./Assets/project-3.png"
+                alt="Project 3"
+                class="project_img"
+              />
             </div>
-            <h2 class="exprience_sub_title"> Project Three</h2>
+            <h2 class="exprience_sub_title">Project Three</h2>
             <div class="btn_container">
-              <button class="btn btn_color_2 project_btn" onclick="location.href= 'https://github.com/'">
+              <button
+                class="btn btn_color_2 project_btn"
+                onclick="location.href= 'https://github.com/'"
+              >
                 Github
               </button>
-              <button class="btn btn_color_2 project_btn" onclick="location.href= 'https://github.com/'">
+              <button
+                class="btn btn_color_2 project_btn"
+                onclick="location.href= 'https://github.com/'"
+              >
                 Live Demo
-              </button>            
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <img src="./Assets/arrow.png" alt="Arrow icon" class="icon arrow3" onclick="location.href='./#exprience'"/>
+      <img
+        src="./Assets/arrow.png"
+        src-light="./Assets/arrow.png"
+        src-dark="./Assets/arrow_dark.png"
+        alt="Arrow icon"
+        class="icon arrow3"
+        onclick="location.href='./#contact'"
+      />
     </section>
     <section id="contact">
-      <p class="section_text_p1">Get In  Touch</p>
+      <p class="section_text_p1">Get In Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact_info_upper_container">
         <div class="contact_info_container">
-          <img src="./Assets/email.png" alt="Email Icon" class="icon contact_icon email_icon"/>
-          <p><a href="mailto:ayodelej30@gmailcom">ayodelej30@gmail.com
-          </a></p>
+          <img
+            src="./Assets/email.png"
+            src-light="./Assets/email.png"
+            src-dark="./Assets/email_dark.png"
+            alt="Email Icon"
+            class="icon contact_icon email_icon"
+          />
+          <p><a href="mailto:ayodelej30@gmailcom">ayodelej30@gmail.com </a></p>
         </div>
         <div class="contact_info_container">
-          <img src="./Assets/email.png" alt="Email Icon" class="icon contact_icon email_icon"/>
-          <p><a href="mailto:a.bolaji465@mybvc.ca">a.bolaji465@mybvc.ca
-          </a></p>
+          <img
+            src="./Assets/email.png"
+            src-light="./Assets/email.png"
+            src-dark="./Assets/email_dark.png"
+            alt="Email Icon"
+            class="icon contact_icon email_icon"
+          />
+          <p><a href="mailto:a.bolaji465@mybvc.ca">a.bolaji465@mybvc.ca </a></p>
         </div>
         <div class="contact_info_container">
-          <img src="./Assets/linkedin.png" alt="linkedin Icon" class="icon contact_icon"/>
-          <p><a href="https://www.linkedin.com/in/bolaji-ayodele-7b0b55250/">Linkedin</a></p>
+          <img
+            src="./Assets/linkedin.png"
+            src-light="./Assets/linkedin.png"
+            src-dark="./Assets/linkedin_dark.png"
+            alt="My Linkedin Profile"
+            class="icon linkedin_icon"
+            onclick="location.href='http://linkedin.com/'"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/bolaji-ayodele-7b0b55250/"
+              >Linkedin</a
+            >
+          </p>
         </div>
       </div>
     </section>
@@ -287,9 +455,8 @@
           </ul>
         </div>
       </nav>
-      <P>Copyright &#169; 2023 Bolaji Ayodele. All Rights Reserved. </P>
+      <p>Copyright &#169; 2023 Bolaji Ayodele. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
 </html>
- 
